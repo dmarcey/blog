@@ -54,12 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        Written by <strong>{author}</strong> who lives and works in Raleigh, NC.
+        You should follow him on{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> if you are
+        into that sort of thing.
       </p>
     </div>
   )
